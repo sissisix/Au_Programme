@@ -1,0 +1,7 @@
+.icnSocial {
+    @apply w-8 mx-1 rounded-full overflow-hidden;
+}
+
+.disable {
+    @apply pointer-events-none cursor-default contrast-30;
+}

@@ -1,0 +1,31 @@
+.link {
+    @apply rounded-md px-3 py-2 text-sm font-medium;
+}
+
+.link:hover {
+    @apply underline underline-offset-8 decoration-2;
+}
+
+.link.active {
+    @apply underline underline-offset-8 decoration-2;
+}
+
+.linkMobile {
+    @apply block text-lightBlack rounded-md px-3 py-2 text-base font-medium;
+}
+
+.linkMobile:hover {
+    @apply bg-lightRed text-white;
+}
+
+.linkMobile.active {
+    @apply bg-redder text-white;
+}
+
+.openMenu {
+    @apply origin-top animate-open-menu space-y-1 px-2 pb-3 pt-2;
+}
+
+.closeMenu {
+    @apply origin-top animate-close-menu space-y-1 px-2 pb-3 pt-2;
+}
