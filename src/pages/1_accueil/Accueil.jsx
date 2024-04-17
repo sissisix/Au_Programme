@@ -1,7 +1,13 @@
+import Block_1 from "./Block_1";
+import Block_2 from "./Block_2";
+import Block_3 from "./Block_3";
+
 const Accueil = () => {
     return (
         <div>
-            <h1>Accueil</h1>
+            <Block_1/>
+            <Block_2/>
+            <Block_3/>
         </div>
     )
 };

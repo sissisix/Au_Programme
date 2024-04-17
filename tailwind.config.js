@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'accueil-back': "linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/fond.jpg');"
+      },
       colors: {
         lightGray: '#FBF2FF',
         lightBlack: '#242424',
@@ -16,7 +19,8 @@ export default {
         30: '.3',
       },
       fontFamily: {
-        title: ['Merriweather']
+        title: ['Merriweather'],
+        para: ['Arial', 'Helvetica', 'sans-serif'],
       },
       keyframes: {
         'open-menu': {

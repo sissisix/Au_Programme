@@ -38,8 +38,7 @@ const Navbar = () => {
                     <div className="absolute inset-y-0 md:left-0 flex items-center">
                         <NavLink
                             key="Accueil"
-                            to="/"
-                        >
+                            to="/">
                             <h1 className="text-xl font-bold h-auto w-auto font-title">{title}</h1>
                         </NavLink>
                         
