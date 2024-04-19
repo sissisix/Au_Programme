@@ -21,6 +21,7 @@ export default {
       fontFamily: {
         title: ['Merriweather'],
         para: ['Arial', 'Helvetica', 'sans-serif'],
+        button: ['sans-serif']
       },
       keyframes: {
         'open-menu': {
@@ -35,6 +36,9 @@ export default {
       animation: {
         'open-menu': 'open-menu 0.4s ease-out forwards',
         'close-menu': 'close-menu 0.4s ease-out forwards',
+      },
+      spacing: {
+        108: '28rem',
       },
     },
   },

@@ -1,0 +1,40 @@
+.container {
+    @apply flex justify-center text-redder text-base;
+    @apply border border-solid border-redder rounded-full;
+    @apply w-fit h-fit px-5 py-1;
+    @apply uppercase font-bold font-button tracking-widest leading-10;
+    @apply relative overflow-hidden z-0 transition-[0.5s] no-underline;
+}
+
+.container span {
+    @apply absolute w-1/4 h-full bg-redder;
+    @apply translate-y-[150%] rounded-full;
+    @apply left-[calc((var(--n)_-_1)_*_25%)] -z-10;
+
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+}
+
+.container:hover {
+    @apply text-white cursor-pointer;
+}
+
+.container:hover span {
+    @apply translate-y-0 scale-[2];
+}
+
+.container span:nth-child(1) {
+    --n: 1;
+}
+
+.container span:nth-child(2) {
+    --n: 2;
+}
+
+.container span:nth-child(3) {
+    --n: 3;
+}
+
+.container span:nth-child(4) {
+    --n: 4;
+}

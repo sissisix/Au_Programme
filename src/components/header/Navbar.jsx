@@ -10,7 +10,7 @@ const navigation = [
     { name: 'Contact', href: '/contact', current: false },
 ]
 
-const title = 'Au <...> Programme';
+const title = 'AU <...> PROGRAMME';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-lightGray'>
+        <nav className='bg-lightGray header'>
             <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-center text-lightBlack">
                     <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -39,7 +39,7 @@ const Navbar = () => {
                         <NavLink
                             key="Accueil"
                             to="/">
-                            <h1 className="text-xl font-bold h-auto w-auto font-title">{title}</h1>
+                            <h1 className="text-lg font-bold h-auto w-auto font-title">{title}</h1>
                         </NavLink>
                         
                     </div>
