@@ -7,6 +7,7 @@ const FullButton = (props) => {
         <NavLink
           key={ props.name }
           to={ props.to }
+          state={ props.message }
           className={ props.color == 'darkBlue' ? 'container blue' : 'container red' }>
           { props.txt }
           <span></span><span></span><span></span><span></span>

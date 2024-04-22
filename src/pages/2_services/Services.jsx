@@ -6,20 +6,18 @@ function changeTarif() {
     var toggle = document.getElementById("toggle");
     var mobileBlock = document.getElementById("mobile");
     var webBlock = document.getElementById("web");
-    //var asterix = document.getElementById("asterix");
 
     if (toggle.checked) {
         mobileBlock.style.display = "none";
         webBlock.style.display = "block";
-        //asterix.textContent = "*Le site web sera mit en ligne avec un serveur de votre choix que vous aurez fourni.";
     } else {
         mobileBlock.style.display = "block";
         webBlock.style.display = "none";
-        //asterix.textContent = "*L'application sera téléchargée sur le Play Store avec un compte développeur que vous aurez fourni.";
     }
 }
 
 const Services = () => {
+    window.scrollTo(0,0);
     return (
         <div className="pt-16 bg-gradient-to-b from-redder to-orange to-60% flex flex-col justify-center text-center">
             <div className="p-16 text-white">

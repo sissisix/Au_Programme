@@ -46,7 +46,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">300€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC</p>
                         </div>
@@ -113,7 +113,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">600€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*L'application sera téléchargée sur le Play Store avec un compte développeur que vous aurez fourni.</p>
                         </div>
@@ -180,7 +180,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">1 100€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*L'application sera téléchargée sur le Play Store avec un compte développeur que vous aurez fourni.</p>
                         </div>

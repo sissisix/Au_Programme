@@ -3,6 +3,7 @@ import Block_2 from "./Block_2";
 import Block_3 from "./Block_3";
 
 const Accueil = () => {
+    window.scrollTo(0,0);
     return (
         <div className="pt-16">
             <Block_1/>

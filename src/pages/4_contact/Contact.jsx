@@ -1,15 +1,20 @@
+import { useLocation } from 'react-router-dom';
 import './Contact.css';
 import SocialButtons from "../../components/socialButton/SocialButtons";
 
 const Contact = () => {
+    window.scrollTo(0,0);
+    
+    let location = useLocation();
+
     return (
         <div className="bg-redder pt-16 pb-20 h-min relative flex flex-col items-center justify-center text-center text-white">
-            <div className="py-16">
+            <div className="pt-16 pb-8">
                 <h1 className="mb-4 font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Contactez-nous !</h1>
                 <p>Nous sommes disponibles du lundi au samedi de 9h à 19h</p>
-                <p>Message par defaut</p>
+                <p className={ location.state ? 'pt-8' : 'hidden pt-8' }>Vous pouvez nous envoyer :<br/>{ location.state }</p>
             </div>
-            <div className="text-orange relative flex w-full flex-col md:flex-row items-center text-center justify-center">
+            <div className="sm:px-0 md:px-28 lg:px-0 text-orange relative flex w-full flex-col lg:flex-row items-center text-center justify-center">
                 <div className="containerContact">
                     <div className="py-8">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="icnContact">
