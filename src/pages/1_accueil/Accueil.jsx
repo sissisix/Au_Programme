@@ -4,7 +4,7 @@ import Block_3 from "./Block_3";
 
 const Accueil = () => {
     return (
-        <div>
+        <div className="pt-16">
             <Block_1/>
             <Block_2/>
             <Block_3/>

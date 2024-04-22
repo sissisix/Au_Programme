@@ -24,7 +24,7 @@ const Block_2 = () => {
         </div>
       </div>
       <div className="relative flex items-center justify-center md:pl-96 lg:pr-80 lg:justify-end text-center mx-4">
-        <FullButton name="Contact" to="/contact" txt="Contactez-nous" />
+        <FullButton name="Contact" to="/contact" txt="Contactez-nous" color="redder" />
       </div>
     </div>
   )

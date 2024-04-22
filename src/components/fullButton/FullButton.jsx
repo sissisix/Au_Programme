@@ -3,11 +3,11 @@ import './FullButton.css';
 
 const FullButton = (props) => {
   return (
-    <div className='center'>
+    <div>
         <NavLink
           key={ props.name }
           to={ props.to }
-          className='container'>
+          className={ props.color == 'darkBlue' ? 'container blue' : 'container red' }>
           { props.txt }
           <span></span><span></span><span></span><span></span>
         </NavLink>

@@ -1,0 +1,42 @@
+/***** BOUTON CHANGEMENT MOBILE/WEB *****/
+
+.toggleContainer {
+    @apply relative grid grid-cols-2 w-48;
+    @apply border-3 border-solid border-darkBlue rounded-full;
+    @apply bg-darkBlue font-bold text-darkBlue cursor-pointer;
+}
+
+.toggleContainer::before {
+    @apply content-[''] absolute w-1/2 h-full left-0;
+    @apply bg-white rounded-full;
+    @apply transition-all duration-300;
+}
+
+.toggleCheckbox:checked + .toggleContainer::before {
+    @apply left-1/2;
+}
+
+.toggleContainer div {
+    @apply p-1.5 text-center z-10;
+}
+
+.toggleCheckbox {
+    @apply hidden;
+}
+
+.toggleCheckbox:checked + .toggleContainer div:first-child{
+    @apply text-white transition-colors duration-300;
+
+}
+
+.toggleCheckbox:checked + .toggleContainer div:last-child{
+    @apply text-darkBlue transition-colors duration-300;
+}
+
+.toggleCheckbox + .toggleContainer div:first-child{
+    @apply text-darkBlue transition-colors duration-300;
+}
+
+.toggleCheckbox + .toggleContainer div:last-child{
+    @apply text-white transition-colors duration-300;
+}
