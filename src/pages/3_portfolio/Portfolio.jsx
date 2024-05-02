@@ -3,7 +3,7 @@ import Projects from '../../assets/projects.json';
 import './Portfolio.css';
 
 const Portfolio = () => {
-    //window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     
     const month = {
         '01': 'Janvier',
@@ -20,12 +20,6 @@ const Portfolio = () => {
         '12': 'Décembre',
     }
     const [open, setOpen] = useState(false);
-
-    /*function closeProjet() {
-        const pContainer = document.getElementById('projetDetail');
-
-        pContainer ? pContainer.className = 'projetOff' : console.log('Error closing window');
-    }*/
 
     window.onclick = function(event) {
         const pContainer = document.getElementById('projetDetail');

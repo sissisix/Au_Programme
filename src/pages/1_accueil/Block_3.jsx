@@ -7,7 +7,7 @@ const Block_3 = () => {
         <div className="relative flex flex-col left-0 md:w-1/2 md:mb-0 mb-8 items-center justify-center md:items-end md:justify-end">
           <h2 className="mx-5 w-108 md:w-80 lg:w-108 font-para mb-8 text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-white text-center md:text-left">
             A propos de moi</h2>
-          <p className="mx-5 w-108 md:w-80 lg:w-108 font-para">
+          <p className="mx-5 max-w-80 lg:max-w-108 font-para">
             Suzac Simon, développeur passionné avec une
             solide formation académique en Audiovisuel,	Médias
             Interactifs Numériques, Jeux (AMINJ). Titulaire d'un

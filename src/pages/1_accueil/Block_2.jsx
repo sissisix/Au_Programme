@@ -12,13 +12,13 @@ const Block_2 = () => {
           <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src={ photoLambda } />
         </div>
         <div className="relative flex flex-col right-0 md:w-1/2">
-          <p className="mb-4 mx-5 w-108 md:w-80 lg:w-108 font-para">
+          <p className="mb-4 mx-5 max-w-80 lg:max-w-108 font-para">
             Que ce soit pour un site web, une application mobile ou même
             les deux, nous sommes à votre disposition pour accomplir avec
             vous le projet de vos souhaits. Nous vous fournissons un
             service	au plus proche du client, avec une réponse client
             inférieur à	24h !</p>
-          <p className="mx-5 w-108 md:w-80 lg:w-108 font-para">
+          <p className="mx-5 max-w-80 lg:max-w-108 font-para">
             Une approche professionnelle pour tous vos projets. Exigez la
             qualité qui vous est promise ! Contactez nous pour discuter de
             vos besoins, et choisir l'approche qui vous correspond.</p>
