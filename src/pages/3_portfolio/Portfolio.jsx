@@ -4,8 +4,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
     //window.scrollTo(0, 0);
-    const title = 'AU <...> PROGRAMME';
-
+    
     const month = {
         '01': 'Janvier',
         '02': 'Février',
@@ -55,6 +54,7 @@ const Portfolio = () => {
                 pStat ? pStat.innerHTML = p.stat == true ? ' - Fini - ' : p.stat == false ? ' - En cours - ' : ' - Statut non trouvé - ' : console.log('Error : Stat not found');
                 pType ? pType.innerHTML = p.context ? 'Projet ' + p.context : 'Type non trouvé' : pType.textContent = 'Type non trouvé';
                 pDesc ? pDesc.innerHTML = p.description ? p.description : 'Description non trouvé' : console.log('Error : Description not found');
+                const imgUrl = p.imgUrl[0] ? new URL(p.imgUrl[0], import.meta.url).href : console.log('Error import image');
                 pImg ? pImg.src = p.imgUrl[0] : console.log('Error : Image not found');
                 pImg ? pImg.className = p.imgType == 'mobile' ? 'projetImg imgMobile' : 'projetImg' : 'Erreur';
                 pFooter ? pFooter.innerHTML = p.footer ? p.footer : 'Footer non trouvé' : console.log('Error : Footer not found');

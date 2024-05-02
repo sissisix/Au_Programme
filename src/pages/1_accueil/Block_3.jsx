@@ -1,3 +1,5 @@
+import photoMoi from './../../assets/moi.jpg';
+
 const Block_3 = () => {
   return (
     <div className="h-fit py-16 bg-redder text-white">
@@ -17,7 +19,7 @@ const Block_3 = () => {
 
         </div>
         <div className="relative flex h-fit right-0 md:w-1/2">
-          <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src="./src/assets/moi.jpg" />
+          <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src={ photoMoi } />
         </div>
       </div>
     </div>

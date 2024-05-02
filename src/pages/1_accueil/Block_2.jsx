@@ -1,4 +1,5 @@
 import FullButton from '../../components/fullButton/FullButton';
+import photoLambda from './../../assets/img_lambda_1.jpg';
 
 const Block_2 = () => {
   return (
@@ -8,7 +9,7 @@ const Block_2 = () => {
       </div>
       <div className="relative flex flex-col md:flex-row items-center justify-center mb-10">
         <div className="relative flex h-fit left-0 md:w-1/2 md:mb-0 mb-8 items-center justify-center md:items-end md:justify-end">
-          <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src="./src/assets/img_lambda_1.jpg" />
+          <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src={ photoLambda } />
         </div>
         <div className="relative flex flex-col right-0 md:w-1/2">
           <p className="mb-4 mx-5 w-108 md:w-80 lg:w-108 font-para">
