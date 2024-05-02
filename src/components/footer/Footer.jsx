@@ -9,7 +9,7 @@ const title = 'Au <...> Programme';
 
 const Footer = () => {
     return (
-        <div className="width-screen bg-lightGray border-t border-solid">
+        <div className="width-screen bg-redder border-t border-solid">
             <div className="mx-auto max-w-7xl px-8 md:px-28 lg:px-44">
                 <div className="relative flex h-16 items-center justify-center text-lightBlack">
                     <div className="absolute inset-y-0 left-0 flex items-center">

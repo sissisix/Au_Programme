@@ -20,7 +20,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-lightGray fixed w-screen z-50 border-b border-solid'>
+        <nav className='bg-redder fixed w-screen z-50 border-b border-solid'>
             <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-center text-lightBlack">
                     <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
