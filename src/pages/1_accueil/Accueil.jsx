@@ -7,7 +7,7 @@ const Accueil = () => {
     return (
         <div className="pt-16">
             <Block_1/>
-            
+            <Block_2/>
         </div>
     )
 };
