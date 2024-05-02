@@ -3,7 +3,7 @@ import photoLambda from './../../assets/img_lambda_1.jpg';
 
 const Block_2 = () => {
   return (
-    <div className="h-fit py-16 bg-lightGray">
+    <div className="h-fit py-16 bg-orange">
       <div className="relative flex flex-col mb-5 items-center justify-center text-center">
         <h2 className="mb-8 text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-redder">Un accompagnement<br />personnalisé à vos besoins !</h2>
       </div>
