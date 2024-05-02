@@ -1,7 +1,7 @@
-import icnlink from "../../assets/icones/Icn_Linkedin.png";
-import icnFcb from "../../assets/icones/Icn_Facebook.png";
-import icnInst from "../../assets/icones/Icn_Instagram.png";
-import icnTwit from "../../assets/icones/Icn_Twitter.png";
+import icnlink from "../../assets/icones/icn_reseaux/Icn_Linkedin.png";
+import icnFcb from "../../assets/icones/icn_reseaux/Icn_Facebook.png";
+import icnInst from "../../assets/icones/icn_reseaux/Icn_Instagram.png";
+import icnTwit from "../../assets/icones/icn_reseaux/Icn_Twitter.png";
 
 const SocialButtons = () => {
     return (

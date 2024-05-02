@@ -1,0 +1,60 @@
+.containerProjets {
+    @apply py-8 my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-28 bg-white shadow-center rounded-lg;
+}
+
+.typeProjet {
+    @apply text-2xl font-para pb-6 text-darkGray;
+}
+
+.projets {
+    @apply flex flex-wrap max-w-200 m-auto justify-center;
+}
+
+.projet {
+    @apply my-2 relative mx-3 rounded-full border-4 border-solid border-darkBlue;
+}
+
+.containerIcnProjet {
+    @apply rounded-full overflow-hidden animate-zoom-out hover:animate-zoom-in;
+}
+
+.icnProjet {
+    @apply rounded-full max-h-40 blur-sm animate-blur-on hover:animate-blur-off cursor-pointer;
+}
+
+.projetOn {
+    @apply fixed z-[1] left-0 top-0 w-full h-full overflow-auto;
+}
+
+.projetOff {
+    @apply hidden fixed z-[1] left-0 top-0 w-full h-full overflow-auto;
+}
+
+.projetDetail {
+    @apply relative m-auto w-4/5 md:w-3/4 lg:w-3/5;
+    @apply p-1 my-44 rounded-3xl bg-redder h-fit animate-drop-down;
+}
+
+.projetTitre {
+    @apply font-para text-xl text-left font-bold w-fit;
+}
+
+.projetInfo {
+    @apply font-para text-sm;
+}
+
+.projetDesc {
+    @apply text-left text-balance;
+}
+
+.projetImg {
+    @apply m-auto py-8;
+}
+
+.imgMobile {
+    @apply w-1/2 lg:w-1/3 xl:w-1/4;
+}
+
+.projetFooter {
+    @apply font-para text-xs text-balance;
+}

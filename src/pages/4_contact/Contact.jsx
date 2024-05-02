@@ -9,8 +9,8 @@ const Contact = () => {
 
     return (
         <div className="bg-redder pt-16 pb-20 h-min relative flex flex-col items-center justify-center text-center text-white">
-            <div className="pt-16 pb-8">
-                <h1 className="mb-4 font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Contactez-nous !</h1>
+            <div className="py-16">
+                <h2 className="mb-4 font-title font-bold text-3xl">Contactez-nous !</h2>
                 <p>Nous sommes disponibles du lundi au samedi de 9h à 19h</p>
                 <p className={ location.state ? 'pt-8' : 'hidden pt-8' }>Vous pouvez nous envoyer :<br/>{ location.state }</p>
             </div>
