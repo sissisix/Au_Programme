@@ -4,9 +4,7 @@ import photoLambda from './../../assets/img_lambda_1.jpg';
 const Block_2 = () => {
   return (
     <div className="h-fit py-16 bg-lightGray">
-      <div className="relative flex flex-col mb-5 items-center justify-center text-center">
-        <h2 className="mb-8 text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-redder">Un accompagnement<br />personnalisé à vos besoins !</h2>
-      </div>
+      
       <div className="relative flex flex-col md:flex-row items-center justify-center mb-10">
         <div className="relative flex h-fit left-0 md:w-1/2 md:mb-0 mb-8 items-center justify-center md:items-end md:justify-end">
           <img className="h-60 sm:h-72 md:h-60 lg:h-72 md:mx-5" src={ photoLambda } />
