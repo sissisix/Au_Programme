@@ -72,6 +72,7 @@ const Navbar = () => {
                             to={item.href}
                             className='linkMobile'
                             aria-current={item.current ? 'page' : undefined}
+                            onClick={ toggleMenu }
                         >
                             {item.name}
                         </NavLink>
