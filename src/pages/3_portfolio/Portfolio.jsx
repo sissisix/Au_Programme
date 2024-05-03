@@ -112,7 +112,7 @@ const Portfolio = () => {
                                                 return (
                                                     <div className='projet' key={projetsMobile.id}>
                                                         <div className='containerIcnProjet' >
-                                                            <img onClick={() => openProjet(projetsMobile)} className='icnProjet' src={projetsMobile.imgIcUrl} />
+                                                            <img onClick={() => openProjet(projetsMobile)} className='icnProjet' src={ projetsMobile.gifUrl.length > 0 ? projetsMobile.gifUrl[0] : projetsMobile.imgIcUrl } />
                                                         </div>
                                                         <div className='absolute top-0 right-0'>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={projetsMobile.stat == true ? 'w-6 h-6 text-white bg-green-400 rounded-full' : projetsMobile.stat == false ? 'hidden' : 'hidden'}>
@@ -139,7 +139,7 @@ const Portfolio = () => {
                                                 return (
                                                     <div className='projet' key={projetsWeb.id}>
                                                         <div className='containerIcnProjet'>
-                                                            <img onClick={() => openProjet(projetsWeb)} className='icnProjet' src={projetsWeb.imgIcUrl} />
+                                                            <img onClick={() => openProjet(projetsWeb)} className='icnProjet' src={ projetsWeb.gifUrl.length > 0 ? projetsWeb.gifUrl[0] : projetsWeb.imgIcUrl } />
                                                         </div>
                                                         <div className='absolute top-0 right-0'>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={projetsWeb.stat == true ? 'w-6 h-6 text-white bg-green-400 rounded-full' : projetsWeb.stat == false ? 'hidden' : 'hidden'}>
@@ -166,7 +166,7 @@ const Portfolio = () => {
                                                 return (
                                                     <div className='projet' key={projetsGame.id}>
                                                         <div className='containerIcnProjet'>
-                                                            <img onClick={() => openProjet(projetsGame)} className='icnProjet' src={projetsGame.imgIcUrl} />
+                                                            <img onClick={() => openProjet(projetsGame)} className='icnProjet' src={ projetsGame.gifUrl.length > 0 ? projetsGame.gifUrl[0] : projetsGame.imgIcUrl } />
                                                         </div>
                                                         <div className='absolute top-0 right-0'>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={projetsGame.stat == true ? 'w-6 h-6 text-white bg-green-400 rounded-full' : projetsGame.stat == false ? 'hidden' : 'hidden'}>
@@ -193,7 +193,7 @@ const Portfolio = () => {
                                                 return (
                                                     <div className='projet' key={projetsOther.id}>
                                                         <div className='containerIcnProjet'>
-                                                            <img onClick={() => openProjet(projetsOther)} className='icnProjet' src={projetsOther.imgIcUrl} />
+                                                            <img onClick={() => openProjet(projetsOther)} className='icnProjet' src={ projetsOther.gifUrl.length > 0 ? projetsOther.gifUrl[0] : projetsOther.imgIcUrl } />
                                                         </div>
                                                         <div className='absolute top-0 right-0'>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={projetsOther.stat == true ? 'w-6 h-6 text-white bg-green-400 rounded-full' : projetsOther.stat == false ? 'hidden' : 'hidden'}>
@@ -220,7 +220,7 @@ const Portfolio = () => {
                                                 return (
                                                     <div className='projet' key={projetsCache.id}>
                                                         <div className='containerIcnProjet'>
-                                                            <img onClick={() => openProjet(projetsCache)} className='icnProjet' src={projetsCache.imgIcUrl} />
+                                                            <img onClick={() => openProjet(projetsCache)} className='icnProjet' src={ projetsCache.gifUrl.length > 0 ? projetsCache.gifUrl[0] : projetsCache.imgIcUrl } />
                                                         </div>
                                                         <div className='absolute top-0 right-0'>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={projetsCache.stat == true ? 'w-6 h-6 text-white bg-green-400 rounded-full' : projetsCache.stat == false ? 'hidden' : 'hidden'}>
