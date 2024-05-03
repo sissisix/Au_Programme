@@ -28,7 +28,7 @@ const Services = () => {
                     Faites le choix d'une formule qui s'adapte à vos besoins, ou créez la votre.
                 </p>
             </div>
-            <div className="py-16 px-8 sm:px-16 flex flex-col justify-center text-center bg-white h-fit w-full rounded-t-4xl">
+            <div className="py-16 px-4 sm:px-16 flex flex-col justify-center text-center bg-white h-fit w-full rounded-t-4xl">
                 <div className='flex items-center justify-center'>
                     <input type="checkbox" id="toggle" className="toggleCheckbox" onClick={changeTarif} />
                     <label htmlFor="toggle" className='toggleContainer'>
