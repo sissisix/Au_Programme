@@ -19,7 +19,7 @@ const Portfolio = () => {
     }
     const [open, setOpen] = useState(true);
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         const pContainer = document.getElementById('projetDetail');
 
         if (event.target == pContainer) {
@@ -43,7 +43,7 @@ const Portfolio = () => {
                 const pDateR = document.getElementById('projetReal');
 
                 pTitre ? pTitre.innerHTML = p.name ? p.name : 'Titre non trouvé' : console.log('Error : Title not found');
-                pStat ? pStat.innerHTML = p.stat == true ? ' - Fini - ' : p.stat == false ? ' - En cours - ' : ' - Statut non trouvé - ' : console.log('Error : Stat not found');
+                pStat ? pStat.innerHTML = p.stat == true ? 'Fini' : p.stat == false ? 'En cours' : 'Statut non trouvé' : console.log('Error : Stat not found');
                 pType ? pType.innerHTML = p.context ? 'Projet ' + p.context : 'Type non trouvé' : pType.textContent = 'Type non trouvé';
                 pDesc ? pDesc.innerHTML = p.description ? p.description : 'Description non trouvé' : console.log('Error : Description not found');
                 pImg ? pImg.src = p.imgUrl[0] : console.log('Error : Image not found');
@@ -67,10 +67,14 @@ const Portfolio = () => {
                     <div className='bg-white rounded-3xl'>
                         <div className='border-t-2 border-x-2 flex px-4 pt-4 pb-2 rounded-t-3xl bg-redder text-white'>
                             <div className='flex flex-col w-1/2'>
-                                <div className='flex whitespace-pre items-baseline'>
+                                <div className='flex flex-col sm:flex-row whitespace-pre items-baseline'>
                                     <h2 className='projetTitre' id='projetTitre'>Titre</h2>
-                                    <p className='projetInfo' id='projetStat'>Stat</p>
-                                    <p className='projetInfo' id='projetType'>Type</p>
+                                    <div className='flex'>
+                                        <p className='projetInfo hidden sm:block'> - </p>
+                                        <p className='projetInfo' id='projetStat'>Stat</p>
+                                        <p className='projetInfo'> - </p>
+                                        <p className='projetInfo' id='projetType'>Type</p>
+                                    </div>
                                 </div>
                                 <div className='flex w-full text-left'>
                                     <p id='projetReal' className='projetInfo w-full'>Date real</p>
