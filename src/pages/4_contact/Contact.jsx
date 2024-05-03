@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="bg-redder pt-16 pb-20 h-min relative flex flex-col items-center justify-center text-center text-white">
             <div className="py-16">
                 <h2 className="mb-4 font-title font-bold text-3xl">Contactez-nous !</h2>
-                <p>Nous sommes disponibles du lundi au samedi de 9h à 19h</p>
+                <p className='mx-10'>Nous sommes disponibles du lundi au samedi de 9h à 19h</p>
                 <p className={ location.state ? 'pt-8' : 'hidden pt-8' }>Vous pouvez nous envoyer :<br/>{ location.state }</p>
             </div>
             <div className="sm:px-0 md:px-28 lg:px-0 text-orange relative flex w-full flex-col lg:flex-row items-center text-center justify-center">
