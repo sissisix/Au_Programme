@@ -212,7 +212,7 @@ const Portfolio = () => {
                                         }
                                     </div>
                                 </div>
-                                <div className='containerProjets'>
+                                <div className='containerProjets hidden'>
                                     <h2 className='typeProjet'>Caché</h2>
                                     <div className='projets'>
                                         {
