@@ -46,7 +46,7 @@ const ServiceWeb = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">400€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Site web simple, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC</p>
                         </div>
@@ -113,7 +113,7 @@ const ServiceWeb = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">800€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Site web standard, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*Le site web sera mit en ligne avec un serveur de votre choix que vous aurez fourni.</p>
                         </div>
@@ -180,7 +180,7 @@ const ServiceWeb = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">1 300€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Site web avancé, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*Le site web sera mit en ligne avec un serveur de votre choix que vous aurez fourni.</p>
                         </div>

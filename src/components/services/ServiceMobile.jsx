@@ -46,7 +46,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">300€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Application Android simple, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC</p>
                         </div>
@@ -113,7 +113,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">600€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Application Android standard, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*L'application sera téléchargée sur le Play Store avec un compte développeur que vous aurez fourni.</p>
                         </div>
@@ -122,7 +122,7 @@ const ServiceMobile = () => {
             </div>
             <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
                 <div className="p-8 sm:p-10 lg:flex-auto">
-                    <h3 className="text-2xl font-bold tracking-tight text-darkBlue">Application Android avancé</h3>
+                    <h3 className="text-2xl font-bold tracking-tight text-darkBlue">Application Android avancée</h3>
                     <p className="mt-6 text-base leading-7 text-gray-600">Application Android personnalisée avec API, SDK et backends pour applications complexes et avancées.</p>
                     <div className="mt-10 flex items-center gap-x-4">
                         <h4 className="flex-none text-sm font-semibold leading-6 text-darkBlue">Inclut</h4>
@@ -180,7 +180,7 @@ const ServiceMobile = () => {
                                 <span className="text-5xl font-bold tracking-tight text-gray-900">1 100€</span>
                             </p>
                             <div className="buttonService">
-                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message="A faire" color="darkBlue" />
+                                <FullButton name="Contact" to="/contact" txt="Choisir ce pack" message={ '"Bonjour, J' + "'" + 'aimerais discuter avec vous du pack Application Android avancée, pouvons-nous prendre rendez-vous par visio dans les jours à venir ?"' } color="darkBlue" />
                             </div>
                             <p className="mt-6 text-xs leading-5 text-gray-600">Prix TTC<br />*L'application sera téléchargée sur le Play Store avec un compte développeur que vous aurez fourni.</p>
                         </div>
