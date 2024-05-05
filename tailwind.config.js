@@ -32,6 +32,8 @@ export default {
         lightRed: '#E0344D',
         orange: '#E4A74E',
         darkBlue: '#03093E',
+        beige: '#D9CDBF',
+        lightBeige: '#F2E3D5',
       },
       contrast: {
         30: '.3',

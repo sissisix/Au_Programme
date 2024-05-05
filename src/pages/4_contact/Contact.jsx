@@ -8,7 +8,7 @@ const Contact = () => {
     let location = useLocation();
 
     return (
-        <div className="bg-redder pt-16 pb-20 h-min relative flex flex-col items-center justify-center text-center text-white">
+        <div className="bg-lightBeige pt-16 pb-20 h-min relative flex flex-col items-center justify-center text-center text-darkGray">
             <div className="pt-16 pb-8">
                 <h2 className="font-title font-bold text-3xl">Contactez-nous !</h2>
                 <p className={ location.state ? 'mx-10 mt-8 mb-4' : 'mx-10 mt-8' }>Nous sommes disponibles du lundi au samedi de 9h à 19h</p>
