@@ -1,5 +1,5 @@
 .containerProjets {
-    @apply py-8 my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-28 bg-white shadow-center rounded-lg;
+    @apply py-8 my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-28 bg-white shadow-center shadow-gray-600 rounded-lg;
 }
 
 .typeProjet {

@@ -61,7 +61,7 @@ const Portfolio = () => {
     }
 
     return (
-        <div className="pb-8 bg-darkBlue pt-16 flex flex-col justify-center text-center">
+        <div className="pb-8 bg-lightBeige pt-16 flex flex-col justify-center text-center">
             <div id='projetDetail' className='projetOff'>
                 <div className='projetDetail'>
                     <div className='bg-white rounded-3xl'>
@@ -96,7 +96,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-16 pb-8 text-white'>
+            <div className='pt-16 pb-8 text-darkGray'>
                 <h2 className='font-title font-bold text-3xl'>Portfolio</h2>
             </div>
             <div>
