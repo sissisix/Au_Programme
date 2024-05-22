@@ -159,7 +159,7 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                                 <div className='containerProjets'>
-                                    <h2 className='typeProjet'>Games</h2>
+                                    <h2 className='typeProjet'>Jeux</h2>
                                     <div className='projets'>
                                         {
                                             projets.projectsGame.map(projetsGame => {
@@ -186,7 +186,7 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                                 <div className='containerProjets'>
-                                    <h2 className='typeProjet'>Others</h2>
+                                    <h2 className='typeProjet'>Autres</h2>
                                     <div className='projets'>
                                         {
                                             projets.projectsOther.map(projetsOther => {
